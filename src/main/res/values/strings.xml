@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpotFinder</string>
+    <string name="title_activity_spot_finding1">SpotFinding1</string>
+    <string name="exit_5">Exit 5</string>
+    <string name="exit_4">Exit 4</string>
+    <string name="exit_2">Exit 2</string>
+    <string name="exit_3">Exit 3</string>
+    <string name="exit_1">Exit 1</string>
+    <string name="exit_6">Exit 6</string>
+    <string name="title_activity_maps1">Map</string>
+</resources>

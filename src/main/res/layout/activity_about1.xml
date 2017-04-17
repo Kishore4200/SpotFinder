@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.kishore.spotfinder.About1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textAllCaps="true"
+                android:textColor="#388E3C"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/findspotButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginLeft="64dp"
+                android:textColor="#FFAB40"
+                android:text="Find a Spot"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:background="#FFFFFF"
+                android:shadowColor="#FFAB00"
+                android:layout_centerHorizontal="true"
+                android:onClick="findingClosestSpots"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="4dp"
+                android:text="To find and reserve a suitable parking spot, select 'Find A Spot'. Then, select the exit you want your spot closest to"
+                android:textSize="16sp"
+                android:textColor="#388E3C"/>
+            <Button
+                android:id="@+id/whereParkButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
+                android:textColor="#FFAB40"
+                android:text="Where Did I Park?"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:background="#FFFFFF"
+                android:shadowColor="#FFAB00"
+                android:layout_centerHorizontal="true"
+                android:onClick="wherePark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="4dp"
+                android:text="To remember where you have parked, select 'Where Did I Park?'"
+                android:textSize="16sp"
+                android:textColor="#388E3C"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/legalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/linearLayout"/>
+    </RelativeLayout>
+</ScrollView>
