@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "536333668147",
+    "firebase_url": "https://spotfinder-1348.firebaseio.com",
+    "project_id": "spotfinder-1348",
+    "storage_bucket": "spotfinder-1348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536333668147:android:3363a4d58d0bb979",
+        "android_client_info": {
+          "package_name": "com.example.kishore.spotfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536333668147-mnqa5tbv7a79e3egourtb37p2k9ifce0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kishore.spotfinder",
+            "certificate_hash": "D5E8A63109409F90F130EC73E1588398A74644AE"
+          }
+        },
+        {
+          "client_id": "536333668147-mp21uod9chr9sk887eavtov6u8mg8lf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvCfhrLjHf39ne52kYHFA31-tozezGIpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

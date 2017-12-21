@@ -1,24 +1,47 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.android.application'
 
-buildscript {
-    repositories {
-        jcenter()
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.kishore.spotfinder"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-        classpath 'com.google.gms:google-services:3.0.0'
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
     }
 }
 
-allprojects {
-    repositories {
-        jcenter()
-    }
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(path: ':endpointsModule', configuration: 'android-endpoints')
+    compile 'com.google.firebase:firebase-database:9.2.1'
+    compile 'com.google.firebase:firebase-auth:9.2.1'
+    compile 'com.google.firebase:firebase-storage:9.2.1'
+    compile 'com.google.firebase:firebase-core:9.2.1'
+    compile 'com.firebase:firebase-client-android:2.5.2'
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.firebaseui:firebase-ui:0.4.3'
+    compile 'com.firebaseui:firebase-ui-database:0.4.3'
+    compile 'com.firebaseui:firebase-ui-auth:0.4.3'
+    compile 'com.google.android.gms:play-services-appindexing:9.2.1'
+    compile 'com.google.android.gms:play-services-auth:9.2.1'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.google.android.gms:play-services:9.2.1'
+    compile 'com.firebase:geofire-android:2.1.1'
 }
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+apply plugin: 'com.google.gms.google-services'
