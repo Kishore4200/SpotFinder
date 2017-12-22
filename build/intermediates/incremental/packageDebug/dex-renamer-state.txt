@@ -1,0 +1,7 @@
+#Mon Jan 02 20:31:19 PST 2017
+base.0=C\:\\Users\\Kishore\\AndroidStudioProjects\\SpotFinder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0d9e070d9d0f787afa95e9480583690c33803d37
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Kishore\\AndroidStudioProjects\\SpotFinder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_fd6b78c34768e2af29c0a30282b095e75c49c09c\\classes.dex
+base.1=C\:\\Users\\Kishore\\AndroidStudioProjects\\SpotFinder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_fd6b78c34768e2af29c0a30282b095e75c49c09c
+file.0=C\:\\Users\\Kishore\\AndroidStudioProjects\\SpotFinder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0d9e070d9d0f787afa95e9480583690c33803d37\\classes.dex
